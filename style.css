@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 0; /* Space between main and sidebar */
+  background: green;
+}
+
+main {
+  flex: 1; /* Takes up remaining space */
+  background: yellow;
+}
+
+aside {
+  width: 250px; /* Fixed or flexible sidebar width */
+  background: red;
+}
+
+header, footer {
+  width: 100%;
+  /* Additional styling as needed */
+}
+
+header {
+  background: blue;
+}
+
+footer {
+  background: teal;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
