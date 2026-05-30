@@ -23,11 +23,13 @@ aside {
 
 header, footer {
   width: 100%;
+  height: 100px;
+  padding: 20px;
   /* Additional styling as needed */
 }
 
 header {
-  background: blue;
+  background: lightblue;
 }
 
 footer {
@@ -36,4 +38,41 @@ footer {
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
+}
+
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.site-header {
+  padding: 20px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.header-content {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  /*position: absolute;*/
+}
+
+.nav-links a {
+  margin-left: 24px;
+  color: #111827;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
 }
