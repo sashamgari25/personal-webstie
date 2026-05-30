@@ -5,20 +5,9 @@ html, body {
   width: 100%;
 }
 
-.content-wrapper {
-  display: flex;
-  gap: 0; /* Space between main and sidebar */
-  background: green;
-}
-
 main {
   flex: 1; /* Takes up remaining space */
   background: yellow;
-}
-
-aside {
-  width: 250px; /* Fixed or flexible sidebar width */
-  background: red;
 }
 
 header, footer {
