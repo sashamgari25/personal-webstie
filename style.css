@@ -40,12 +40,6 @@ main {
   background: #f8fafc;
 }
 
-footer {
-  height: 150px;
-  background: teal;
-  padding: 0;
-}
-
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
@@ -140,4 +134,17 @@ h1, h2, h3, h4, h5, h6, p {
 .button:hover {
   background: #111827;
   color: white;
+}
+
+.site-footer {
+  background: lightblue;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.footer-content {
+  min-height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
 }
