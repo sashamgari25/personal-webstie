@@ -40,10 +40,6 @@ main {
   background: #f8fafc;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-}
-
 .site-header {
   background: lightblue;
   border-bottom: 1px solid #e5e7eb;
@@ -59,11 +55,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .nav-links {
   display: flex;
-  gap: 24px;
+  gap: 48px;
 }
 
 .nav-links a {
-  margin-left: 24px;
   color: #111827;
   text-decoration: none;
 }
