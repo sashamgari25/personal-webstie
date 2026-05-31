@@ -33,7 +33,7 @@ p + p {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 24px;
-  background: grey;
+  /*background: grey;*/
 }
 
 main {
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .about {
-  padding: 72px 0;
+  padding: 0px 0;
 }
 
 .about-layout {
@@ -104,7 +104,15 @@ h1, h2, h3, h4, h5, h6, p {
 
 .projects-preview,
 .blog-preview {
-  padding: 56px 0;
+  padding: 20px 0;
+}
+
+.projects-preview {
+    background: goldenrod;
+}
+
+.blog-preview {
+    background: maroon;
 }
 
 .preview-card {
