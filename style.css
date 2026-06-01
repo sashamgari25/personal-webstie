@@ -38,7 +38,7 @@ p + p {
 
 .hero {
   background: lightyellow;
-  min-height: 1100px;
+  min-height: 100vh;
   width: 100%;
   border: 3px dotted black;
 
@@ -53,10 +53,54 @@ p + p {
     width: 100%;
 }
 
-.laptop {
-    width: 50%;
-    height: 400px;
+.hero-box {
+    width: 65%;
+    height: 65vh;
     border: 3px solid black;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 90px;
+    gap: 0px;
+}
+
+.say-hi {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 0.8;
+}
+
+.my-name-question {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.name-box {
+    width: 95%;
+    height: 35vh;
+    border: 3px solid black;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 25px;
+}
+
+.first-name {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.last-name {
+    font-size: 70px;
+    font-weight: bold;
 }
 
 main {
