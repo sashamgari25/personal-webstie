@@ -138,6 +138,7 @@ main {
 
   position: sticky;
   top: 0;
+  z-index: 2;
 
   border-bottom: 3px solid black;
   border-left: 3px solid black;
@@ -174,7 +175,114 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #EF805D
+  background: #EF805D;
+  border-top: 10px solid black;
+}
+
+.about-label-container {
+    width: 100%;
+    z-index: 1;
+    background: #EAE9D3;
+}
+
+.project-label-container {
+    width: 100%;
+    z-index: 1;
+    background: #EF805D;
+}
+
+.blog-label-container {
+    width: 100%;
+    z-index: 1;
+    background: #b189bf;
+}
+
+.contact-label-container {
+    width: 100%;
+    z-index: 1;
+    background: #EF805D;
+}
+
+.about-label-box {
+    width: 30%;
+    height: 8vh;
+    margin-left: 10vh;
+    z-index: 1;
+    border-top: 10px solid black;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+    background: #EF805D;
+    transform: translateY(10px);
+
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-label-box {
+    width: 30%;
+    height: 8vh;
+    margin-left: 10vh;
+    z-index: 1;
+    border-top: 10px solid black;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+    background: #b189bf;
+    transform: translateY(10px);
+
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-label-box {
+    width: 30%;
+    height: 8vh;
+    margin-left: 10vh;
+    z-index: 1;
+    border-top: 10px solid black;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+    background: #EF805D;
+    transform: translateY(10px);
+
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-label-box {
+    width: 30%;
+    height: 8vh;
+    margin-left: 10vh;
+    z-index: 1;
+    border-top: 10px solid black;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+    background: #EAE9D3;
+    transform: translateY(10px);
+
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-label {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .about-layout {
@@ -254,6 +362,7 @@ main {
     align-items: center;
     gap: 40px 0;
     background: #b189bf;
+    border-top: 10px solid black;
 }
 
 .preview-box {
@@ -328,6 +437,7 @@ main {
     align-items: center;
     gap: 40px 0;
     background: #EF805D;
+    border-top: 10px solid black;
 }
 
 .blog-box {
@@ -401,6 +511,8 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
+    border-top: 10px solid black;
 }
 
 .contact-question-container {
